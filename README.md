@@ -39,6 +39,7 @@
 ```bash
 updater.exe --download_url=http://example.com/update.zip
 ```
+![image](https://github.com/user-attachments/assets/b37f6cab-112b-4e75-a784-ec47cde3e35f)
 
 #### 静默模式（无UI）
 ```bash
