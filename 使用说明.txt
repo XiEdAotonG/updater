@@ -1,0 +1,9 @@
+# 使用
+python updater.py  --download_url=https://XXXX/xx.zip --restart_exe_path="XX.exe" --extract_path="test" --show=False
+
+updater.exe --download_url=https://XXXX/xx.zip --restart_exe_path="XX.exe" --extract_path="test" --show=False
+
+
+# 打包
+python setup.py build_ext
+pyinstaller --onefile  --noconfirm --windowed --console --icon "updater_logo.ico" --upx-dir "build/upx-4.2.0-win64" "build/lib.win-amd64-cpython-311/updater.py"
