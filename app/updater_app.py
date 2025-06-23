@@ -7,7 +7,9 @@ import tkinter as tk
 import zipfile
 from io import BytesIO
 from threading import Thread
-from tkinter import ttk, messagebox
+# from tkinter import ttk, messagebox
+from tkinter import  messagebox
+import ttkbootstrap as ttk
 
 import requests
 

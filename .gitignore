@@ -5,5 +5,7 @@
 *.c
 *.zip
 /.idea/
-
-
+测试.txt
+/build/temp.win-amd64-cpython-311/
+/build/lib.win-amd64-cpython-311/app/
+/build/updater/
